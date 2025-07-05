@@ -2,6 +2,7 @@
     --papyrus: #F5EDD6;
     --linen: #FAF0E6;
     --primary-blue: #2563eb;
+    --lightblue: #3b82f6;
 }
 
 /* Global Styles */
@@ -68,13 +69,13 @@ nav a {
 }
 
     nav a:hover {
-        color: #3b82f6;
+        color: var(--lightblue);
     }
 
 
 
 .hero {
-    background: url('/images/pexels-mattdvphotography-2606395.jpg') center center/cover no-repeat;
+    background: url('images/hero.jpg') center center/cover no-repeat;
     color: var(--papyrus);
     min-height: 100vh;
     display: flex;
@@ -309,7 +310,7 @@ nav a {
 
 .education-bubble {
     background: var(--linen);
-    border-left: 4px solid #3b82f6;
+    border-left: 4px solid var(--lightblue);
     padding: 2rem 2.5rem;
     border-radius: 24px;
     max-width: 900px;
@@ -409,7 +410,7 @@ nav a {
 
 .summary-bubble {
     background: var(--linen);
-    border-left: 4px solid #3b82f6;
+    border-left: 4px solid var(--lightblue);
     padding: 2rem 2.5rem;
     border-radius: 24px;
     max-width: 700px;
@@ -470,6 +471,7 @@ nav a {
     justify-content: center;
 }
 
+
 .project-card {
     background: var(--papyrus);
     padding: 1.5rem 2rem;
@@ -480,22 +482,38 @@ nav a {
         0 8px 32px 0 #2563eb22;      /* blue glow */
     min-width: 320px;
     max-width: 800px;
-    min-height: 600px; 
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    position: relative;
 }
+
 
 
 .project-link-btn {
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5em;
+    background: var(--primary-blue);
+    color: var(--papyrus);
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    font-size: 1rem;
+    transition: background 0.2s, color 0.2s;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
 
 .slide-arrow {
-    background: var(--primary-blue);
+    background: var(--lightblue);
     color: var(--papyrus);
     border: none;
     border-radius: 50%;
@@ -510,7 +528,7 @@ nav a {
 }
 
 .slide-arrow:hover {
-    background: #1d4ed8;
+    background: var(--primary-blue);
 }
 
 .project-link-btn {
