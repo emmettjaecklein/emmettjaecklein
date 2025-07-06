@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const projects = [
         {
             title: "Machine Learning for Computational Animal Welfare",
-            image: "images/ml_zoo_1.png",
+            image: "assets/images/ml_zoo_1.png",
             desc: `I initiated this ongoing research partnership to develop automated
 animal tracking systems for use at the Woodland Park Zoo in Seattle, WA. Our goal was to reduce the labor and inherent bias associated
 with manual observation by constructing a machine learning pipeline
@@ -44,7 +44,7 @@ continue to see refinement and expansion to other species.`,
         },
         {
             title: "Stream Gauge Records for Channel Change",
-            image: "images/stream_gauge_1.png",
+            image: "assets/images/stream_gauge_1.png",
             desc: `This group capstone project was a continuation of a study done by our client Dr. Alison Pfeiffer of the WWU Geology Department,
 on river incision and aggradation in the state of Washington using
 United States Geological Survey data. Our goal was to further collect, compare, and display our findings, as well as create a code base
@@ -59,7 +59,7 @@ and this project was presented formally on multiple occasions to interested part
         },
         {
             title: "The Stims: Gamified ASD Education",
-            image: "images/stims_1.png",
+            image: "assets/images/stims_1.png",
             desc: `This group project aimed to raise awareness for Autism Spectrum
 Disorder (ASD) through the use of gamified storytelling techniques
 in an online format. Players are presented with multiple different perspectives to choose from, each involving a detailed story
@@ -75,7 +75,7 @@ excellent demonstration of team organization, motivation, and skills.`,
         },
         {
             title: "Machine Learning for Educational Insight in Washington State",
-            image: "images/ospi_1.jpg",
+            image: "assets/images/ospi_1.jpg",
             desc: `This group project was the final project for the core Data111 course at WWU.
             We aimed to use machine learning and regression analysis to find insights into the socioeconomic
             factors that influence student success in Washington State. Our team scraped data from the Washington
